@@ -5,6 +5,7 @@ api-version: '1.20'
 authors: [ Gregzee ]
 description: A plugin that allows players to set their chat color to different colors.
 load: POSTWORLD
+depend: [ CommandAPI ]
 libraries:
   - de.exlll:configlib-yaml:${configlibVersion}
   - de.exlll:configlib-paper:${configlibVersion}
