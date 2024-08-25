@@ -1,12 +1,12 @@
-package me.gregzee.chatcolorplus.config;
+package me.gregzee.chatcolorplus.manager;
 
 import de.exlll.configlib.ConfigLib;
 import de.exlll.configlib.YamlConfigurationProperties;
 import de.exlll.configlib.YamlConfigurations;
 import lombok.Getter;
 import me.gregzee.chatcolorplus.ChatColorPlus;
+import me.gregzee.chatcolorplus.config.Settings;
 import org.jetbrains.annotations.NotNull;
-
 import java.io.File;
 import java.nio.charset.StandardCharsets;
 import java.util.Optional;
