@@ -1,0 +1,10 @@
+name: ChatColorPlus
+version: ${version}
+main: me.gregzee.chatcolorplus.ChatColorPlus
+api-version: '1.20'
+authors: [ Gregzee ]
+description: A plugin that allows players to set their chat color to different colors.
+load: POSTWORLD
+libraries:
+  - de.exlll:configlib-yaml:${configlibVersion}
+  - de.exlll:configlib-paper:${configlibVersion}
