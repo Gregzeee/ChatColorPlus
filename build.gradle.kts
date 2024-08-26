@@ -23,6 +23,7 @@ dependencies {
     compileOnly(libs.configlib.paper)
     compileOnly(libs.lombok)
     compileOnly(libs.commandapi)
+    compileOnly(libs.jspecify)
     annotationProcessor(libs.lombok)
 }
 
