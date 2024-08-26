@@ -9,9 +9,8 @@ import java.util.Optional;
 
 public final class ChatColorPlus extends JavaPlugin {
 
-    @Getter
-    private static ChatColorPlus instance;
-    public ConfigManager configManager;
+    @Getter private static ChatColorPlus instance;
+    @Getter private static ConfigManager configManager;
 
     @Override
     public void onEnable() {
