@@ -2,6 +2,7 @@ package me.gregzee.chatcolorplus;
 
 import lombok.Getter;
 import me.gregzee.chatcolorplus.command.ChatColorCommand;
+import me.gregzee.chatcolorplus.listener.PlayerChatEvent;
 import me.gregzee.chatcolorplus.manager.ConfigManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import java.util.Optional;
@@ -36,7 +37,7 @@ public final class ChatColorPlus extends JavaPlugin {
     }
 
     private void registerListeners() {
-
+        getServer().getPluginManager().registerEvents(new PlayerChatEvent(), this);
     }
 
     /**
